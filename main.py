@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn import linear_model
-import matplotlib.pyplot as plt
 
+st.write("# Prediksi Produksi Mangga di Kabupaten/Kota di Jawa Barat")
 # READ DATA
 df = pd.read_csv("./od_mangga.csv", index_col="id")
 
@@ -40,9 +40,7 @@ linmodel.fit(X= np.array(df_filter["tahun"]).reshape(-1,1), y=df_filter["jumlah_
 
 X_test = np.array([2019,2020,2021,2022,2023])
 y_pred = linmodel.predict(X_test.reshape(-1,1))
-# fig = plt.scatter(X_test, y_pred, color ='b')
 
-# st.pyplot(fig)
 st.line_chart(
     pd.DataFrame(
         y_pred,
