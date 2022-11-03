@@ -25,7 +25,6 @@ a = st.selectbox("Pilih kabupaten/kota untuk diketahui perkembangan produksi man
 # PLOT LINE CHART
 df_filter = df[(df["nama_kabupaten_kota"] == a)]
 
-d = {}
 st.line_chart(
     data=df_filter,
     x = "tahun",
@@ -35,7 +34,7 @@ st.line_chart(
 # LINEAR MODEL PREDICTION 
 st.write("PREDICTED FOR NEXT 5 YEARS")
 
-linmodel = linear_model.LinearRegression(fit_intercept=True)
+linmodel = linear_model.LinearRegression()
 linmodel.fit(X= np.array(df_filter["tahun"]).reshape(-1,1), y=df_filter["jumlah_produksi"])
 
 X_test = np.array([2019,2020,2021,2022,2023])
