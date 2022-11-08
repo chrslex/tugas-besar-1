@@ -11,8 +11,8 @@ Rencana dari pengelolaan dataset ini adalah untuk menaikkan omset dengan mengeta
 ## Data understanding
 Berikut penjelasan variabel dalam dataset ini:
 
-id : id penjualan (berurutan)	
-provinsi :cakupan datanya berasal dari wilayah di Provinsi Jawa Barat. 	
+- id : id penjualan (berurutan)	
+- provinsi :cakupan datanya berasal dari wilayah di Provinsi Jawa Barat. 	
 kode_kabupaten_kota : kode setiap kota dan kabupaten
 nama_kabupaten_kota : nama dari setiap kabupaten atau kota pada Provinsi Jawa Barat
 jumlah_produksi : jumlah produksi mangga
