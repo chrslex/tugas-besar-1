@@ -1,4 +1,8 @@
 # tugas-besar-1-RPP
+- 13519005 - Yusuf Alwansyah Hilmy
+- - 13519109 - Christian Tobing Alexandro
+- 13519199 - Christian Gunawan 
+
 
 ## Business understanding
 Dataset ini berisi jumlah produksi mangga berdasarkan kabupaten/kota di Provinsi Jawa Barat dari tahun 2013-2018. Dataset ini terkait dengan topik ekonomi yang dihasilkan oleh Dinas Tanaman Pangan dan Hortikultura yang terbit setahun sekali. 
@@ -13,11 +17,11 @@ Berikut penjelasan variabel dalam dataset ini:
 
 - id : id penjualan (berurutan)	
 - provinsi :cakupan datanya berasal dari wilayah di Provinsi Jawa Barat. 	
-kode_kabupaten_kota : kode setiap kota dan kabupaten
-nama_kabupaten_kota : nama dari setiap kabupaten atau kota pada Provinsi Jawa Barat
-jumlah_produksi : jumlah produksi mangga
-satuan : Satuan unit jumlah produksi
-tahun : tahun produksi
+- kode_kabupaten_kota : kode setiap kota dan kabupaten
+- nama_kabupaten_kota : nama dari setiap kabupaten atau kota pada Provinsi Jawa Barat
+- jumlah_produksi : jumlah produksi mangga
+- satuan : Satuan unit jumlah produksi
+- tahun : tahun produksi
 
 Source Data : https://opendata.jabarprov.go.id/id/dataset/jumlah-produksi-mangga-di-jawa-barat
 
