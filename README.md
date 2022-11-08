@@ -26,3 +26,5 @@ Source Data : https://opendata.jabarprov.go.id/id/dataset/jumlah-produksi-mangga
 ## Cara Menjalankan Program
 
 1. Buka Link : https://chrslex-tugas-besar-1-main-bz2c7z.streamlit.app/
+2. Pilih kabupaten/kota untuk melihat perkembangan produksi manggan 5 tahun sebelumnya
+3. Terdapat grafik dibawah untuk memprediksi perkembangan produksi mangga kedepannya
