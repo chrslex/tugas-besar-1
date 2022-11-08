@@ -1,6 +1,6 @@
 # tugas-besar-1-RPP
 - 13519005 - Yusuf Alwansyah Hilmy
-- - 13519109 - Christian Tobing Alexandro
+-- 13519109 - Christian Tobing Alexandro
 - 13519199 - Christian Gunawan 
 
 
